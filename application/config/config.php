@@ -40,7 +40,7 @@ switch ($baselink) {
         $baselinkmain = $baselink . "/rahmanfab";
         break;
     default:
-        $baselinkmain = $configuration['site_url'];
+        $baselinkmain = str_replace("http", "https", $baselink);
 }
 
 $config['base_url'] = $baselinkmain;
