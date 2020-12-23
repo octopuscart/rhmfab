@@ -251,8 +251,7 @@ $image2 = "";
 
 
                                             <h3 style="text-align: center;font-size: 15px">{{product.title}}
-                                                <br>
-                                                <span >{{product.short_description}} </span></h3>
+                                    
                                             <!--<p style="text-align: center">{{product.price|currency:"<?php echo globle_currency; ?> "}}</p>-->
                                             <br>
                                             <p>
